@@ -45,4 +45,3 @@ def write_homophones():
     # Uložení homofonních jednotek do JSON souboru
     with open('key.json', 'w') as file:
         json.dump(homophones, file, indent=4)
-
